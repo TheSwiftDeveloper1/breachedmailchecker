@@ -20,7 +20,6 @@ def wordcount(filename, email):
     except FileNotFoundError:
         print("The file is not found.")
 
-# Main loop for user input
 while True:
     email_input = input("Enter email (or type 'exit' to quit): ")
     if email_input.lower() == "exit":
